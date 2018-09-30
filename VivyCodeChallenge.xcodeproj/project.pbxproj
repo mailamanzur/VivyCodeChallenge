@@ -12,7 +12,25 @@
 		0644C1812157ABC400D75DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0644C17F2157ABC400D75DFA /* Main.storyboard */; };
 		0644C1832157ABC800D75DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0644C1822157ABC800D75DFA /* Assets.xcassets */; };
 		0644C1862157ABC800D75DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0644C1842157ABC800D75DFA /* LaunchScreen.storyboard */; };
+		0644C19621598B6400D75DFA /* BaseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644C19521598B6400D75DFA /* BaseApiClient.swift */; };
+		0644C198215A928D00D75DFA /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644C197215A928D00D75DFA /* CountryTableViewCell.swift */; };
+		0644C19A215A958F00D75DFA /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644C199215A958F00D75DFA /* Country.swift */; };
+		0644C19C215A978400D75DFA /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644C19B215A978400D75DFA /* Language.swift */; };
+		0644C19E215A979000D75DFA /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644C19D215A979000D75DFA /* Currency.swift */; };
+		0644C1A6215A985D00D75DFA /* VivyCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0644C1A5215A985D00D75DFA /* VivyCodeChallengeTests.swift */; };
+		0644C1AE215A987C00D75DFA /* CountryList.json in Resources */ = {isa = PBXBuildFile; fileRef = 0644C1AD215A987C00D75DFA /* CountryList.json */; };
+		06489655215AA72C00733287 /* CountryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06489654215AA72C00733287 /* CountryCellViewModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0644C1A8215A985D00D75DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0644C1702157ABC400D75DFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0644C1772157ABC400D75DFA;
+			remoteInfo = VivyCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0644C1782157ABC400D75DFA /* VivyCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivyCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +40,27 @@
 		0644C1822157ABC800D75DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0644C1852157ABC800D75DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0644C1872157ABC800D75DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0644C19521598B6400D75DFA /* BaseApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApiClient.swift; sourceTree = "<group>"; };
+		0644C197215A928D00D75DFA /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		0644C199215A958F00D75DFA /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		0644C19B215A978400D75DFA /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		0644C19D215A979000D75DFA /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		0644C1A3215A985D00D75DFA /* VivyCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivyCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0644C1A5215A985D00D75DFA /* VivyCodeChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivyCodeChallengeTests.swift; sourceTree = "<group>"; };
+		0644C1A7215A985D00D75DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0644C1AD215A987C00D75DFA /* CountryList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CountryList.json; sourceTree = "<group>"; };
+		06489654215AA72C00733287 /* CountryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0644C1752157ABC400D75DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0644C1A0215A985C00D75DFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				0644C17A2157ABC400D75DFA /* VivyCodeChallenge */,
+				0644C1A4215A985D00D75DFA /* VivyCodeChallengeTests */,
 				0644C1792157ABC400D75DFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				0644C1782157ABC400D75DFA /* VivyCodeChallenge.app */,
+				0644C1A3215A985D00D75DFA /* VivyCodeChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +91,70 @@
 		0644C17A2157ABC400D75DFA /* VivyCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				0644C194215981E600D75DFA /* Views */,
+				0644C19221597EE700D75DFA /* Storyboard */,
+				0644C19121597EC900D75DFA /* Networking */,
+				0644C19021596AA200D75DFA /* Controllers */,
+				0644C18F21594A8500D75DFA /* Model */,
 				0644C17B2157ABC400D75DFA /* AppDelegate.swift */,
-				0644C17D2157ABC400D75DFA /* ViewController.swift */,
-				0644C17F2157ABC400D75DFA /* Main.storyboard */,
 				0644C1822157ABC800D75DFA /* Assets.xcassets */,
 				0644C1842157ABC800D75DFA /* LaunchScreen.storyboard */,
 				0644C1872157ABC800D75DFA /* Info.plist */,
 			);
 			path = VivyCodeChallenge;
+			sourceTree = "<group>";
+		};
+		0644C18F21594A8500D75DFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0644C199215A958F00D75DFA /* Country.swift */,
+				0644C19B215A978400D75DFA /* Language.swift */,
+				0644C19D215A979000D75DFA /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0644C19021596AA200D75DFA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0644C17D2157ABC400D75DFA /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0644C19121597EC900D75DFA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0644C19521598B6400D75DFA /* BaseApiClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0644C19221597EE700D75DFA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0644C17F2157ABC400D75DFA /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0644C194215981E600D75DFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0644C197215A928D00D75DFA /* CountryTableViewCell.swift */,
+				06489654215AA72C00733287 /* CountryCellViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0644C1A4215A985D00D75DFA /* VivyCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0644C1A5215A985D00D75DFA /* VivyCodeChallengeTests.swift */,
+				0644C1A7215A985D00D75DFA /* Info.plist */,
+				0644C1AD215A987C00D75DFA /* CountryList.json */,
+			);
+			path = VivyCodeChallengeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +177,24 @@
 			productReference = 0644C1782157ABC400D75DFA /* VivyCodeChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0644C1A2215A985C00D75DFA /* VivyCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0644C1AA215A985D00D75DFA /* Build configuration list for PBXNativeTarget "VivyCodeChallengeTests" */;
+			buildPhases = (
+				0644C19F215A985C00D75DFA /* Sources */,
+				0644C1A0215A985C00D75DFA /* Frameworks */,
+				0644C1A1215A985C00D75DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0644C1A9215A985D00D75DFA /* PBXTargetDependency */,
+			);
+			name = VivyCodeChallengeTests;
+			productName = VivyCodeChallengeTests;
+			productReference = 0644C1A3215A985D00D75DFA /* VivyCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +207,10 @@
 				TargetAttributes = {
 					0644C1772157ABC400D75DFA = {
 						CreatedOnToolsVersion = 9.4.1;
+					};
+					0644C1A2215A985C00D75DFA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0644C1772157ABC400D75DFA;
 					};
 				};
 			};
@@ -113,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				0644C1772157ABC400D75DFA /* VivyCodeChallenge */,
+				0644C1A2215A985C00D75DFA /* VivyCodeChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +244,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0644C1A1215A985C00D75DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0644C1AE215A987C00D75DFA /* CountryList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -136,11 +260,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				0644C17E2157ABC400D75DFA /* ViewController.swift in Sources */,
+				0644C19621598B6400D75DFA /* BaseApiClient.swift in Sources */,
 				0644C17C2157ABC400D75DFA /* AppDelegate.swift in Sources */,
+				0644C19C215A978400D75DFA /* Language.swift in Sources */,
+				0644C19A215A958F00D75DFA /* Country.swift in Sources */,
+				06489655215AA72C00733287 /* CountryCellViewModel.swift in Sources */,
+				0644C19E215A979000D75DFA /* Currency.swift in Sources */,
+				0644C198215A928D00D75DFA /* CountryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0644C19F215A985C00D75DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0644C1A6215A985D00D75DFA /* VivyCodeChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0644C1A9215A985D00D75DFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0644C1772157ABC400D75DFA /* VivyCodeChallenge */;
+			targetProxy = 0644C1A8215A985D00D75DFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0644C17F2157ABC400D75DFA /* Main.storyboard */ = {
@@ -310,6 +456,44 @@
 			};
 			name = Release;
 		};
+		0644C1AB215A985D00D75DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VivyCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mailamanzur.VivyCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VivyCodeChallenge.app/VivyCodeChallenge";
+			};
+			name = Debug;
+		};
+		0644C1AC215A985D00D75DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VivyCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mailamanzur.VivyCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VivyCodeChallenge.app/VivyCodeChallenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +511,15 @@
 			buildConfigurations = (
 				0644C18B2157ABC800D75DFA /* Debug */,
 				0644C18C2157ABC800D75DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0644C1AA215A985D00D75DFA /* Build configuration list for PBXNativeTarget "VivyCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0644C1AB215A985D00D75DFA /* Debug */,
+				0644C1AC215A985D00D75DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
